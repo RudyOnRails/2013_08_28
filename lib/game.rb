@@ -1,11 +1,6 @@
 class Game
-  def roll=(value)
-    @roll = value
-  end
 
-  def roll
-    @roll
-  end
+  attr_accessor :roll
 
   def first_roll=(value)
   end
